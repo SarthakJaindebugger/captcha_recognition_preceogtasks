@@ -41,7 +41,7 @@
 - **Loss:** `nn.CrossEntropyLoss()`.
 - **Optimizer:** `torch.optim.Adam`.
 - Used **Dropout** and **data augmentation** to reduce overfitting.
-- Accuracy achived is 71% 
+# Test Accuracy achived is ~71% 
 
 ---
 
@@ -56,6 +56,7 @@
 4. **Linear Layer:** One for each time step.
 5. **Softmax:** Predicts characters + blank.
 6. **CTC Loss:** For aligning predictions to true text without needing per-character position.
+# Test Accuracy achived is ~53%   
 
 ---
 
