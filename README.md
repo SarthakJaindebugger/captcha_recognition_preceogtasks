@@ -1,6 +1,6 @@
 # Captcha Recognition Tasks for Precog Recruitment by Sarthak Jain
 
-## 🧪 Task 0: Dataset Generation (Image-Text Pairs)
+## Task 0: Dataset Generation (Image-Text Pairs)
 
 ### Easy Set
 - **Background:** `Image.new()` – plain white background.
