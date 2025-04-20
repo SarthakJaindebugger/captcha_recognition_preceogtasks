@@ -7,6 +7,7 @@
 - **Text rendering:** `ImageDraw.Draw().text()` to place the word on the image.
 - **Font:** Single consistent font using `ImageFont.truetype()` (e.g., Arial).
 - **Case:** All **uppercase** words.
+  
 ![Easy Task Example](https://github.com/SarthakJaindebugger/captcha_recognition_preceogtasks/blob/main/Easy.png)
 
 ---
@@ -23,6 +24,8 @@
 - **Effects:**
   - Random **rotations**, **jitter**, or **offsets** for realism.
   - Simulates distortions found in CAPTCHAs.
+ 
+    
    ![Bonus Task Example](https://github.com/SarthakJaindebugger/captcha_recognition_preceogtasks/blob/main/Hard.png)
 ---
 
@@ -31,7 +34,11 @@
 - **Red background:** Word is rendered **reversed** (e.g., “hello” shown as “olleh”).
 - **Green background:** Normal word.
 - **Logic:** Word is reversed with `[::-1]` before rendering **only** if background is red.
+
+  
   ![Bonus Task Example](https://github.com/SarthakJaindebugger/captcha_recognition_preceogtasks/raw/main/Bonus1.png)
+
+  
   ![Bonus Task Example](https://github.com/SarthakJaindebugger/captcha_recognition_preceogtasks/raw/main/Bonus2.png)
 
 
