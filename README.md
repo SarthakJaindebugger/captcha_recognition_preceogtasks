@@ -57,11 +57,6 @@
 5. **Softmax:** Predicts characters + blank.
 6. **CTC Loss:** For aligning predictions to true text without needing per-character position.
 
-### 🧠 Features:
-- Handles **variable-length words**.
-- Robust to missing or repeated letters.
-- Works even when spacing is inconsistent.
-
 ---
 
 ## Task 3: Bonus Generation
